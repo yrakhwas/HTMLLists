@@ -1,0 +1,37 @@
+ul li::after {
+    padding-left: 1%;
+    content: url(./img/cancel_16.png);
+}
+
+.Pair {
+    background-color: rgb(146, 225, 238);
+}
+
+.unPair {
+    background-color: rgb(127, 181, 204);
+}
+
+.unMade {
+    list-style-image: url(./img/unchecked_16.png);
+}
+
+.made {
+    list-style-image: url(./img/checked_16.png);
+    background-color: antiquewhite;
+    text-decoration: line-through;
+}
+
+.toDoList {
+    width: 80%;
+    margin: auto;
+}
+
+li {
+    padding: 5px;
+    padding-inline-start: 2%;
+    list-style-position: inside;
+}
+
+ul {
+    padding-left: 0%;
+}

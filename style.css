@@ -1,0 +1,25 @@
+li {
+    background-color: rgb(167, 42, 42);
+    color: white;
+    margin: 2%;
+    list-style-position: inside;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-inline: 1%;
+    height: 30px;
+    vertical-align: middle;
+}
+
+ol {
+    background-color: rgb(210, 129, 125);
+    padding: 1%;
+    vertical-align: sub;
+    line-height: 2;
+}
+
+.fruits {
+    background-color: rgb(226, 83, 83);
+    padding-inline-start: 1%;
+    padding-inline-end: 1%;
+    padding: 10px;
+}
